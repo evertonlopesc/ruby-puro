@@ -103,7 +103,11 @@ puts ''
 print arr.delete('Microsoft')
 puts ''
 
-
+# Inserindo valores nulos
+print arr.insert(4, '')
+puts ''
+print arr.push('')
+puts ''
 
 
 
