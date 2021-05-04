@@ -108,8 +108,12 @@ print arr.insert(4, nil)
 puts ''
 print arr.push(nil)
 puts ''
-
-
+print arr.compact
+puts ''
+print arr
+puts ''
+print arr.compact!
+puts ''
 
 
 
