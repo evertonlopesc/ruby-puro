@@ -104,10 +104,11 @@ print arr.delete('Microsoft')
 puts ''
 
 # Inserindo valores nulos
-print arr.insert(4, '')
+print arr.insert(4, nil)
 puts ''
-print arr.push('')
+print arr.push(nil)
 puts ''
+
 
 
 
