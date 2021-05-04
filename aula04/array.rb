@@ -64,3 +64,14 @@ puts ''
 print arr.drop(3) # show after n elements
 puts ''
 
+# OBTENDO INFORMAÇÕES
+puts 'OBTENDO INFORMAÇÕES'
+print arr.length
+puts ''
+print arr.count
+puts ''
+print arr.empty?
+puts ''
+print arr.include?(50)
+puts ''
+
