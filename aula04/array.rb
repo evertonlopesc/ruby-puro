@@ -123,7 +123,28 @@ puts ''
 print arr.uniq!
 puts ''
 
+# ITERANDO SOBRE ARRAYS
+puts 'ITERANDO SOBRE ARRAYS'
 
+print numbers =  [1, 2, 3, 4, 5] 
+puts ''
+numbers.each { |a| print a -= 10, " " }
+puts ''
 
-print arr
+print words = %w{ USA Canada Germania France Japan Brazil }
+puts ''
+str = ''
+words.reverse_each { |word| str += "#{word} " }
+puts str
+
+print numbers.map { |a| 2*a }
+puts ''
+print numbers
+puts ''
+print numbers.map! { |a| a**2 }
+puts ''
+print numbers
+puts ''
+
+print 
 puts ''
