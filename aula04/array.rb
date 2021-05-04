@@ -34,3 +34,33 @@ puts ''
 print Array({:a => "a", :b => "b"})
 puts ''
 
+# ACESSANDO ELEMENTOS
+puts 'ACESSANDO ELEMENTOS'
+print arr[2]
+puts ''
+print arr[100] # return nil
+puts ''
+print arr[-3]
+puts ''
+print arr[2, 3]
+puts ''
+print arr[1..4]
+puts ''
+print arr[1..-3]
+puts ''
+print arr.at(0)
+puts ''
+
+arr_text = ['a', 'b', 'c', 'd', 'e', 'f']
+#arr_text.fetch(100) #=> IndexError: index 100 outside of array bounds: -6...6
+arr_text.fetch(100, "oops") #=> "oops"
+
+print arr.first
+puts ''
+print arr.last
+puts ''
+print arr.take(3) # show first n elements
+puts ''
+print arr.drop(3) # show after n elements
+puts ''
+
