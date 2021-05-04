@@ -75,3 +75,18 @@ puts ''
 print arr.include?(50)
 puts ''
 
+# ADICIONANDO ITENS
+puts 'ADICIONANDO ITENS'
+print arr.push(8) # added in end
+puts ''
+print arr << 9 # added in end
+puts ''
+print arr.unshift(0) # added in start
+puts ''
+print arr.insert(3, 'here')
+puts ''
+print arr.insert(4, 'Apple', 'Microsoft', 'Linux')
+puts ''
+print arr.push('Apple', 'Microsoft')
+puts ''
+
