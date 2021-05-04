@@ -90,3 +90,23 @@ puts ''
 print arr.push('Apple', 'Microsoft')
 puts ''
 
+# REMOVENDO ITENS
+puts 'REMOVENDO ITENS'
+print arr.pop
+puts ''
+print arr.shift
+puts ''
+print arr.delete_at(2)
+puts ''
+print arr.delete('Apple')
+puts ''
+print arr.delete('Microsoft')
+puts ''
+
+
+
+
+
+
+print arr
+puts ''
