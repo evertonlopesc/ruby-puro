@@ -26,10 +26,10 @@ puts ''
 print options[:acordar]
 puts ''
 print hash["Dorothy Doe"]
-puts ''
+puts "\n"
 
 # USO COMUM
-print 'USO COMUM'
+print "USO COMUM \n"
 puts ''
 print books = {}
 puts ''
