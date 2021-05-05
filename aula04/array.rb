@@ -146,5 +146,35 @@ puts ''
 print numbers
 puts ''
 
+# SELECIONANDO ITEMS NO ARRAY
+puts 'SELECIONANDO ITEMS NO ARRAY'
+
+# Non-destructive
+print arr
+puts ''
+print arr.select { |a| a > 3 }
+puts ''
+print arr.reject { |a| a < 3 }
+puts ''
+print arr.drop_while { |a| a < 4 }
+puts ''
+print arr
+puts ''
+
+# Destructive
+print arr.delete_if { |a| a < 4 }
+puts ''
+print arr
+puts ''
+print arr = [1, 2, 3, 4, 5, 6, 7]
+puts ''
+print arr.keep_if { |a| a < 4 }
+puts ''
+print arr
+puts ''
+
+
+
+
 print 
 puts ''
