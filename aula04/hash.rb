@@ -3,11 +3,11 @@
 # COMO CRIAR HASH
 print 'COMO CRIAR HASH'
 puts ''
-print course = { "Computacao" => "Ciencia da Computacao", "Gerencia" => "Administracao" }
+print course    = { "Computacao" => "Ciencia da Computacao", "Gerencia" => "Administracao" }
 puts ''
-print products = { :livro => 150, :caderno => 25 }
+print products  = { :livro => 150, :caderno => 25 }
 puts ''
-print options = { acordar: 5, transporte: 'onibus' }
+print options   = { acordar: 5, transporte: 'onibus' }
 puts ''
 hash = Hash.new
 print hash["Dorothy Doe"] = 9
@@ -28,11 +28,22 @@ puts ''
 print hash["Dorothy Doe"]
 puts ''
 
+# USO COMUM
+print 'USO COMUM'
+puts ''
+print books = {}
+puts ''
+print books.class
+puts ''
+puts ''
+books[:matz]  = "The Ruby Programming Language"
+books[:black] = "The Well-Grounded Rubyist"
+print books
+puts ''
+print books.class
+puts ''
 
 
 
-
-
-
-print
+print ''
 puts ''
