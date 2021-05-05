@@ -16,6 +16,23 @@ products = Hash.new(0)
 course = { "Financas" => "Contabilidade" }
 course.default = 0
 
+# OBTENDO INFORMACOES
+print 'OBTENDO INFORMACOES'
+puts ''
+print products["livro"]
+puts ''
+print course[:Computacao]
+puts ''
+print options[:acordar]
+puts ''
+print hash["Dorothy Doe"]
+puts ''
+
+
+
+
+
+
 
 print
 puts ''
