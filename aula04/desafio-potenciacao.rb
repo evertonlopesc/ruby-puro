@@ -1,21 +1,16 @@
-=begin
-    Array
-    Criar um programa que receba três números
-    exibindo o resultado de cada um deles 
-    elevado a segunda potência
-    
-=end
+#     Array
+#     Criar um programa que receba três números
+#     exibindo o resultado de cada um deles
+#     elevado a segunda potência
 
 numbers = []
+count = 1
 
-print 'Primeiro número: '
-numbers[0] = gets.chomp.to_i
-
-print 'Primeiro número: '
-numbers[1] = gets.chomp.to_i
-
-print 'Primeiro número: '
-numbers[2] = gets.chomp.to_i
+3.times do
+  print "Informe o #{count} número: "
+  numbers.push gets.chomp.to_i
+  count += 1
+end
 
 puts "Sequência escolhida: #{numbers}"
 
