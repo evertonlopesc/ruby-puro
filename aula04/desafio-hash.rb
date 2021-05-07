@@ -5,22 +5,20 @@ elements = {}
 count = 1
 
 loop do
-    print "Escolha a chave: "
-    key = gets.chomp
+  print 'Escolha a chave: '
+  key = gets.chomp
 
-    print "Escolha a valor: "
-    value = gets.chomp
+  print 'Escolha a valor: '
+  value = gets.chomp
 
-    elements["#{key}"] = "#{value}"
-    puts "\n"
+  elements[key.to_s] = value.to_s
+  puts "\n"
 
-    if count == 3
-        break
-    end
-    count += 1
-    
+  break if count == 3
+
+  count += 1
 end
 
 elements.each do |key, value|
-    puts "\nUma das chaves é: #{key} e o seu valor é #{value}}"
+  puts "\nUma das chaves é: #{key} e o seu valor é #{value}}"
 end
