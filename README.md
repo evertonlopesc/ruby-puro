@@ -1,2 +1,0 @@
-# ruby-puro
-Curso OneBitCode
