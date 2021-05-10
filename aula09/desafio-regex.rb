@@ -5,4 +5,8 @@
 
 text = 'Olá, tudo bem? Meu whats app é (99) 7 4321-1234'
 
-puts text =~ /\(\d{2}\)\s\d\s\d{4}\-\d{4}/
+print text =~ /\(\d{2}\)\s\d\s\d{4}\-\d{4}/
+
+puts " - #{/\(\d{2}\)\s\d\s\d{4}\-\d{4}/.match(text)}"
+
+puts /\(99\) 7 4321\-1234/.match(text)
