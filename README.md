@@ -21,5 +21,4 @@ Curso: [OneBitCode](https://onebitcode.com/course/ruby-puro/)
 * Programação Orientada a Objetos II
 * Ruby Avançado I
 * Ruby Avançado II
-* Projeto Final	
 
